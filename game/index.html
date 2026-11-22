@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Velvet Vault — The Marlowe Sapphire Heist</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #0d0a12;
+    height: 100%;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, serif;
+  }
+  #game {
+    display: block;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+    aspect-ratio: 1280 / 720;
+    background: #171221;
+    cursor: crosshair;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720" aria-label="Velvet Vault — The Marlowe Sapphire Heist"></canvas>
+<p id="status" class="visually-hidden" aria-live="polite"></p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
