@@ -1,0 +1,1 @@
+{"name":"velvet-vault-heist","private":true,"scripts":{"serve":"node serve.ts","test":"node tests/logic.test.js"},"type":"module"}
